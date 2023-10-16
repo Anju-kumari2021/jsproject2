@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        h1
+        {
+            text-align: center;
+        }
+        #productlist
+        {
+            display:grid;
+            grid-template-columns: repeat(4,auto);
+            gap:10px;
+        }
+        .product
+        {
+            height:300px;
+            width:200px;
+            list-style-type: none;
+        }
+        .product img
+        {
+            height:100px;
+            width:100px;
+        }
+    </style>
+</head>
+<body style="background-color: blanchedalmond;">
+    <h1>Product list</h1>
+    <div>
+        <ul id="productlist">
+            <!--Products list will be display here-->
+        </ul>
+    </div>
+    <script src="products.js"></script>
+</body>
+</html>
